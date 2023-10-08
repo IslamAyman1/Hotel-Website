@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <ul class=" mr-auto d-flex justify-content-between w-100 flex-wrap">
+            <div class="d-flex align-items-center flex-wrap">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact us</a>
+                </li>
+                <div>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                </div>
+
+            </div>
+            <div class="d-flex flex-wrap">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        new features
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </div>
+        </ul>
+
+
+    </header>
+
+    <section class="Fsection">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                <ul class="d-flex w-100 justify-content-between flex-wrap">
+                    <div class="d-flex align-items-center">
+                        <img width="50px" src="images/pngaaa.com-416090.png" alt="">
+                        <h3>RAA TOURS</h3>
+                    </div>
+                    <div class="d-flex flex-wrap">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">our feautres</a>
+                        </li>
+                        <button>
+                            sign up
+                        </button>
+                    </div>
+                </ul>
+
+            </div>
+        </nav>
+
+        <form action="" method="post" onsubmit="search(event)">
+            <div class="d-flex allinput">
+            <input class="finput" type="text" name="Hotels" id="inputtt" placeholder="Search on Hotels">
+            <p id="hotelll"></p>
+            <input class="seinput" type="text" name="Tours"  id="inputtt3" placeholder="Search on Tours">
+            <p id="tourrr"></p>
+            <input class="thinput" type="text" name="Packeges" id="inputtt4" placeholder="Search on Packeges">
+            <p id="packegg"></p>
+           </div>
+         
+            <input type="range" name="HotelsPrice" step="200" min="5000" max="8000" name="" id="inputtt2">
+            <p class="para" id="outputRange"></p>   
+            <input type="submit" value="Search"> 
+            
+
+        
+
+  
+
+
+
+
+
+        </form>
+    </section>
+
+    <section class="firstsec ">
+     
+    
+
+        <div>
+            <h1 class="top mt-5">Top Hotels</h1>
+            <p class="top top2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, rem? Nihil</p>
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain">
+                    <div class="card">
+                        <img src="images/image1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-body2">
+                            <p class="card-text hotelName">Crowne Plaza.</p>
+                            <p class="card-text price">Price is <span class="hotelPrice">6000</span></p>
+                            <div class="order">
+                                <p>Order Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain">
+                    <div class="card">
+                        <img src="images/image2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-body2">
+                            <p class="card-text hotelName">Emerald Bay Inn.</p>
+                            <p class="card-text price">Price is <span class="hotelPrice">7000</span></p>
+                            <div class="order">
+                                <p>Order Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain">
+                    <div class="card">
+                        <img src="images/images3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-body2">
+                            <p class="card-text hotelName">Hotel Bliss.</p>
+                            <p class="card-text price">Price is <span class="hotelPrice">8000</span> </p>
+                            <div class="order">
+                                <p>Order Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain">
+                    <div class="card">
+                        <img src="images/images4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-body2">
+                            <p class="card-text hotelName">University Inn.</p>
+                            <p class="card-text price">Price is <span class="hotelPrice">8000</span></p>
+                            <div class="order">
+                                <p>Order Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+    <section class="secondsec">
+        <div class="container">
+            <h1 class="top">Top Tours</h1>
+            <p class="top top2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, rem? Nihil</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain">
+                    <div class="card card2">
+                        <img src="images/image5.jpg" class="card-img-top card-img-top2" alt="...">
+                        <div class="card-body">
+                            <div class="topp">
+                                <p class="tourName">Adventour</p>
+                            </div>
+                            <div class="order order2">
+                                <p>Tours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain">
+                    <div class="card card2">
+                        <img src="images/images6.jfif" class="card-img-top card-img-top2" alt="...">
+                        <div class="card-body">
+                            <div class="topp">
+                                <p class="tourName">Destination Vacation</p>
+                            </div>
+                            <div class="order order2">
+                                <p>Tours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain">
+                    <div class="card card2">
+                        <img src="images/images7.jfif" class="card-img-top card-img-top2" alt="...">
+                        <div class="card-body">
+                            <div class="topp">
+                                <p class="tourName">Mind the Gap</p>
+                            </div>
+                            <div class="order order2">
+                                <p>Tours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain">
+                    <div class="card card2">
+                        <img src="images/images9.jfif" class="card-img-top card-img-top2" alt="...">
+                        <div class="card-body">
+                            <div class="topp">
+                                <p class="tourName">Green Escapes</p>
+                            </div>
+                            <div class="order order2">
+                                <p>Tours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="thirdsec">
+        <div class="container contain">
+            <h1 class="top">Top Packeges</h1>
+            <p class="top top2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, rem? Nihil</p>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain cardmain2">
+                    <div class="card card2 card3">
+                        <img src="images/image2.jpg" class="card-img-top " alt="...">
+                        <div class="card-body card-body2">
+                            <small class="card-text small">Charmilian club Rest</small>
+                            <h3 class="packageName">Super Saver Kashmir</h3>
+                            <p class="interested">Interested</p>
+                            <pre>2  3 Near Beach</pre>
+                            <div class="order order3">
+                                <a href="#">Get it Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain cardmain2">
+                    <div class="card card2">
+                        <img src="images/images3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-body2">
+                            <small class="card-text small">Charmilian club Rest</small>
+                            <h3 class="packageName">Inspirational Himachal</h3>
+                            <p class="interested">Interested</p>
+                            <pre>2  3 Near Beach</pre>
+                            <div class="order order3">
+                                <a href="#">Get it Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardmain cardmain2">
+                    <div class="card card2 card4">
+                        <img src="images/images4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-body2">
+                            <small class="card-text small">Charmilian club Rest</small>
+                            <h3 class="packageName">Simply North East</h3>
+                            <p class="interested">Interested</p>
+                            <pre>2  3 Near Beach</pre>
+                            <div class="order order3">
+                                <a href="#">Get it Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <section class="fourthsec">
+         <div class="container">
+            <div class="row .of_fourthsec">
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card ofcircle first" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt harum eveniet facere iusto quasi, laboriosam, quo repellat quae voluptates eaque porro maxime ad aperiam tempore! Incidunt pariatur vel cum.</p>
+                    </div>
+                    <div class="flex">
+                        <img class="card-img-top circle" src="images/download (1).jfif" alt="Card image cap">
+                        <h3>Islam Ayman</ا>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card ofcircle second" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt harum eveniet facere iusto quasi, laboriosam, quo repellat quae voluptates eaque porro maxime ad aperiam tempore! Incidunt pariatur vel cum.</p>
+                    </div>
+                    <div class="flex">
+                        <img class="card-img-top circle" src="images/download (2).jfif" alt="Card image cap">
+                        <h3>Islam Ayman</h3>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card ofcircle third" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt harum eveniet facere iusto quasi, laboriosam, quo repellat quae voluptates eaque porro maxime ad aperiam tempore! Incidunt pariatur vel cum.</p>
+                    </div>
+                    <div class="flex">
+                        <img class="card-img-top circle" src="images/download.jfif" alt="Card image cap">
+                        <h3>Islam Ayman</h3>
+                    </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </section> 
+    <section>
+        <div class="icons col-lg-12 col-md-12 col-sm-12">
+            <a href="#"><i class="fas fa-phone-square-alt"></i></a>
+             <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+              <a href="#"><i class="fas fa-comments"></i></a>
+            </div>
+            <div class="logo col-lg-12 col-md-12 col-sm-12">
+                    <img class="iata" src="images/iata.png" alt="iata">
+                    <img src="images/cib.png" alt="cib">
+                    <img src="images/smart.png" alt="smart">
+                    <img src="images/card.jfif" alt="card">
+                    <img src="images/fawry.png" alt="fawry">
+                    <img class="air" src="images/air.png" alt="air">
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <img width="50px" src="images/pngaaa.com-416090.png" alt="">
+                <h3>RAA TOURS</h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2seg!4v1637838108628!5m2!1sen!2seg"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <ul>
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                            <p>Lorem, ipsum dolor.</p>
+                        </li>
+
+                        <li>
+                            <i class="fab fa-youtube"></i>
+                            <p>Lorem, ipsum dolor.</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter"></i>
+                            <p>Lorem, ipsum dolor.</p>
+                        </li>
+                        <li>
+                            <i class="fab fa-pinterest-p"></i>
+                            <p>Lorem, ipsum dolor.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white !important;
+    padding: 0 90px ;
+}
+header .nav-link{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 5px 10px;
+}
+nav{
+    background-color: transparent !important;
+   
+}
+header ul{
+    list-style: none;
+  
+}
+header i{
+    margin: 0 10px;
+}
+.para
+{
+    font-size: 20px;
+    color:rgb(0, 255, 225);
+    font-weight: 500;
+}
+nav ul{
+    padding: 0 100px;
+    list-style: none;
+}
+nav .nav-link{
+    color: white;
+    text-transform: capitalize;
+font-weight: 600;
+margin: 5px 10px;
+}
+nav .nav-link:hover{
+    border-bottom: 2px solid turquoise;
+}
+nav button{
+    background-color: turquoise;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+nav h3{
+    color: white;
+  
+    margin-left: 10px;
+}
+.Fsection{
+    background-image: url(images/pexels-myroslava-2261943.jpg);
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;   
+    padding-bottom: 30px;
+}
+.Fsection form{
+   
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.Fsection form input{
+    border: 2px solid turquoise;
+    outline: none;
+    padding:5px 30px;
+    font-size: 20px;
+    width: 260px ;
+}
+.Fsection form input[type="submit"]{
+    background-color: orange;
+    color: white;
+}
+
+/********************************/
+.row .card-img-top
+{
+    height:220px;
+}
+.row .card-img-top2
+{
+    height:320px;
+    object-fit: cover;
+}
+ .row
+{
+    justify-content: space-around;
+}
+.card
+{
+    border:none;
+    margin-top: 15px;  
+}
+
+.card-body2
+{
+    position: relative;
+}
+.contain a
+{
+  color:white;
+  
+}
+.order
+{
+    position:absolute;
+    top: -44px;
+    right: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background:rgb(56, 167, 204);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    height: 28px;
+    width: 129px;
+}
+.order2
+{
+    background:rgb(51, 49, 49);
+    top:269px;
+    right:0;
+    width:56px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.order p
+{
+  margin-top: 13px;
+  font-size: 13px;
+}
+.card img
+{
+    width:100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-text
+{
+    text-align: center;
+}
+.top
+{
+    text-align: center;
+}
+.price
+{
+  position: relative;
+  bottom:15px;
+  color:rgb(17, 153, 199)
+}
+.price span
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card2
+{
+    position:relative;
+}
+ .topp 
+{
+    position: absolute;
+    top:10px;
+    color:white;
+}
+.order3
+{
+   border-radius: 25px;
+   margin-top: 30px;
+}
+.card2 img
+{
+    border-radius: 2px;
+}
+.interested , .small 
+{
+    color:gray;
+}
+.five_sec
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:solid 1px rgb(184, 181, 181);
+    padding:300px;
+    background-color: rgb(184, 181, 181);
+    position: relative;
+}
+/************************/
+/************************/
+/************************/
+/************************/
+/************************/
+/************************/
+
+#hotelll , #tourrr , #packegg{
+
+    font-size: 20px;
+    color:white ;
+    text-align: center;
+    margin-left: -35px;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.fa-concierge-bell , .fa-plane-departure , .fa-hand-holding-heart{
+ 
+    display: block;
+    font-size: 40px ;
+    position: relative;
+    bottom: 17px;
+    right: 64px;
+    color:turquoise ;
+    text-align: center;
+}
+/************************/
+/************************/
+/************************/
+/************************/
+/************************/
+/************************/
+/************************/
+
+/*******************************/
+.fourthsec
+{
+    background-color: gray;
+    padding:100px;
+    
+}
+.ofcircle
+{
+    border:solid 1px gray;
+    height: 300px;
+}
+.card .circle
+{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.flex
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icons
+{
+    font-size: 35px;
+    display:flex;
+    justify-content: flex-end;
+}
+.icons i
+{
+    margin-right: 10px;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+}
+.logo img
+{
+    width:100px;
+    height:90px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (min-width:500px) and (max-width:700px) {
+    .iata , .air
+    {
+       display: none;
+    }
+     
+
+}
+/*******************************/
+footer{
+    padding: 30px 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+footer h3{
+    color: turquoise;
+    margin-left: 10px;
+}
+footer iframe{
+border: none;
+width: 100%;
+height: 300px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: flex;
+    align-items: baseline;
+}
+footer ul li i{
+    color: turquoise;
+    margin-right: 5px;
+}
+@media only screen and (min-width:768px) and (max-width:1000px) {
+     .order
+     {
+        position: absolute;
+    left: 12px;
+}
+  .pre
+  {
+      overflow: hidden;
+  }
+}
+@media only screen and (max-width:1000px) {
+    body
+    {
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width:870px) {
+     .allinput
+     {
+       display:flex;
+       flex-direction: column;
+     }
+     .finput
+     {
+         position: relative;
+         top:150px
+     }
+     .seinput
+    {
+        position: relative;
+        top:100px
+    }
+    .thinput
+    {
+        position: relative;
+        top:50px
+    }
+}
